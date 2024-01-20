@@ -19,9 +19,11 @@ Another approach is to implement hydration yourself. This can be more complex, b
 React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes of DOM.
 To return multiple elements from a React component, you'll need to wrap the elements into a root element.
 ``<Fragment>``, often used via ``<>...</>`` syntax, lets you group elements without a wrapper node.
-``<>
+```
+<>
 <OneChild />
-<AnotherChild />``
+<AnotherChild />
+```
 
 # Virtual DOM
 
