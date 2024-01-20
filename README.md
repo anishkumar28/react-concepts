@@ -15,6 +15,14 @@ How to Implement React Hydration
 There are a few different ways to implement React hydration. One common approach is to use a library like Next.js or Gatsby.js. These libraries provide built-in support for hydration, making it easy to get started.
 Another approach is to implement hydration yourself. This can be more complex, but it gives you more control over the process. To implement hydration yourself, you need to use the hydrate() method from the React DOM library.
 
+# React Fragment
+React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes of DOM.
+To return multiple elements from a React component, you'll need to wrap the elements into a root element.
+``<Fragment>``, often used via ``<>...</>`` syntax, lets you group elements without a wrapper node.
+``<>
+<OneChild />
+<AnotherChild />``
+
 # Virtual DOM
 
 The virtual DOM (VDOM) is a programming concept where an ideal, or "virtual", representation of a UI is kept in memory and synced with the "real" DOM by a library such as ReactDOM. This process is called Reconciliation.
