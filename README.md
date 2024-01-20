@@ -23,6 +23,7 @@ To return multiple elements from a React component, you'll need to wrap the elem
 <>
 <OneChild />
 <AnotherChild />
+</>
 ```
 
 # Virtual DOM
