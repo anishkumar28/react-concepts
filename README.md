@@ -15,6 +15,9 @@ How to Implement React Hydration
 There are a few different ways to implement React hydration. One common approach is to use a library like Next.js or Gatsby.js. These libraries provide built-in support for hydration, making it easy to get started.
 Another approach is to implement hydration yourself. This can be more complex, but it gives you more control over the process. To implement hydration yourself, you need to use the hydrate() method from the React DOM library.
 
+#Reconciliation in React
+The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+
 # React Fiber Architecture
 
 ## Introduction
