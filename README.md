@@ -276,6 +276,13 @@ That's all there is for now, but this document is nowhere near complete. Future 
 - how the scheduler finds the next unit of work to perform.
 - how priority is tracked and propagated through the fiber tree.
 - how the scheduler knows when to pause and resume work.
+
+# Props in React
+
+React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+
+- Step 1: Pass props to the child component 
+- Step 2: Read props inside the child component 
 - how work is flushed and marked as complete.
 - how side-effects (such as lifecycle methods) work.
 - what a coroutine is and how it can be used to implement features like context and layout.
