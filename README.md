@@ -300,4 +300,25 @@ That's all there is for now, but this document is nowhere near complete. Future 
 React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
 
 - Step 1: Pass props to the child component 
-- Step 2: Read props inside the child component 
+- Step 2: Read props inside the child component
+
+# React Hooks
+Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
+
+## React useState Hook
+The React useState Hook allows us to track state in a function component.
+
+State generally refers to data or properties that need to be tracking in an application.
+useState accepts an initial state and returns two values:
+
+- The current state.
+- A function that updates the state.
+
+## React useEffect Hooks
+The useEffect Hook allows you to perform side effects in your components.
+
+Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
