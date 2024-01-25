@@ -321,4 +321,4 @@ Some examples of side effects are: fetching data, directly updating the DOM, and
 
 useEffect accepts two arguments. The second argument is optional.
 
-useEffect(<function>, <dependency>)
+``` useEffect(<function>, <dependency>) ```
