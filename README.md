@@ -314,6 +314,8 @@ useState accepts an initial state and returns two values:
 - The current state.
 - A function that updates the state.
 
+  ``` const [<function>, <setFunction>] = useState(initial value) ```
+
 ## React useEffect Hooks
 The useEffect Hook allows you to perform side effects in your components.
 
