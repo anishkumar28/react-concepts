@@ -381,7 +381,7 @@ export const MyContext = createContext("");
 In the above code, we're importing createContext from React and using it to create a new context object named "MyContext". Then, we are exporting the context object so that we can use it in other parts of our application.
 
 
-2. Wrap Components with a Provider
+1. Wrap Components with a Provider
 Once you've created a context object, you need to wrap the components that need access to the shared data with a Provider component. The Provider component accepts a "value" prop that holds the shared data, and any component that is a child of the Provider component can access that shared data.
 
 It's important to note that the Provider component should be wrapped around the top-level component in an application to ensure that all child components have access to the shared data.
@@ -412,7 +412,7 @@ In this example, we have a parent component called App. This component has a sta
 
 Inside the return statement of the App component, we've wrapped the children of this component with the provider component ("MyContext.Provider"). Then we've passed an object to the value prop of the provider component that contains "text" and "setText" values.
 
-3. Consume the Context
+1. Consume the Context
 Now that we've created the provider component, we need to consume the context in other components. To do this, we use the "useContext" hook from React.
 
 ```
