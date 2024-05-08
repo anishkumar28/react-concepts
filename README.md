@@ -364,8 +364,8 @@ This can improve performance.
 
 The useCallback and useMemo Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.
 
+# Context API
 
-#Context API
 Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components. It helps to prevent you from prop drilling.
 
 1. Create a Context Object
