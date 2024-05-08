@@ -368,6 +368,10 @@ The useCallback and useMemo Hooks are similar. The main difference is that useMe
 
 Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components. It helps to prevent you from prop drilling.
 
+##How to Get Started with the Context API
+
+To start using the Context API in your applications, you'll need to follow a few simple steps:
+
 - Create a Context Object
 
 First, you need to create a context object using the createContext function from the 'react' library. This context object will hold the data that you want to share across your application.
