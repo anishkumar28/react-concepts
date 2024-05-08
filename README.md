@@ -368,7 +368,7 @@ The useCallback and useMemo Hooks are similar. The main difference is that useMe
 
 Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components. It helps to prevent you from prop drilling.
 
-1. Create a Context Object
+1 Create a Context Object
 
 First, you need to create a context object using the createContext function from the 'react' library. This context object will hold the data that you want to share across your application.
 
@@ -381,7 +381,7 @@ export const MyContext = createContext("");
 In the above code, we're importing createContext from React and using it to create a new context object named "MyContext". Then, we are exporting the context object so that we can use it in other parts of our application.
 
 
-1. Wrap Components with a Provider
+1 Wrap Components with a Provider
 Once you've created a context object, you need to wrap the components that need access to the shared data with a Provider component. The Provider component accepts a "value" prop that holds the shared data, and any component that is a child of the Provider component can access that shared data.
 
 It's important to note that the Provider component should be wrapped around the top-level component in an application to ensure that all child components have access to the shared data.
@@ -412,7 +412,7 @@ In this example, we have a parent component called App. This component has a sta
 
 Inside the return statement of the App component, we've wrapped the children of this component with the provider component ("MyContext.Provider"). Then we've passed an object to the value prop of the provider component that contains "text" and "setText" values.
 
-1. Consume the Context
+1 Consume the Context
 Now that we've created the provider component, we need to consume the context in other components. To do this, we use the "useContext" hook from React.
 
 ```
